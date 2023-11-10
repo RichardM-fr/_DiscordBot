@@ -1,3 +1,5 @@
+# v04.01 - Created by Richard Mongrolle - Open Source ;)
+
 # 0 - Config
 
 # 0.1 - os = for use "config" file
