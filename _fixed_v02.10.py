@@ -25,4 +25,8 @@ async def on_message(message):
 # ------------------------------
 
 # TOKEN
+<<<<<<< HEAD
 client.run("") # Add your token here
+=======
+client.run("")
+>>>>>>> 77a0c8941925532dbc726590712fcb978903b076
