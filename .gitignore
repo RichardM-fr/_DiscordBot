@@ -1,5 +1,4 @@
 config
-config_debug
-bot_tasks.log
-_requirements.txt
+config-debug
+bot-tasks.log
 __SAVES

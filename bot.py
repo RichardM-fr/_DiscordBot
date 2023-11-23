@@ -79,7 +79,7 @@ async def on_ready():
 
 # -----------------------
 # 1.1 - Configure logging to a file
-logging.basicConfig(filename='bot_tasks.log', level=logging.INFO, format='%(asctime)s - %(message)s')
+logging.basicConfig(filename='bot-tasks.log', level=logging.INFO, format='%(asctime)s - %(message)s')
 
 # -----------------------
 # 1.2 - Function to log tasks and send logs to a specified Discord channel
