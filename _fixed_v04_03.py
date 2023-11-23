@@ -4,10 +4,14 @@
 
 # 0.1 - Import
 # os = for use "config" file
+from imaplib import Commands
 import os
 
-# datetime = 
+# datetime = for see the actual datetime
 from datetime import datetime
+
+# numpy = for add some useful functions
+import numpy as np
 
 # discord = actually v2.2
 import discord
@@ -35,10 +39,9 @@ async def on_ready():
 
 # 1 - Commands
 
-# 1.01 - !del
 @client.event
 async def on_message(message):
-    if message.content.startswith("!ano "):
+    if message.content.startswith("!ano "): # 1.01 - !ano
         print ("\n" , time_now , " --- ", message.content )
         
         bot_message = message.content.replace("!ano ", '')
@@ -47,22 +50,38 @@ async def on_message(message):
 
         await message.delete()
     
-    if message.content.startswith("!rewrite "):
+    if message.content.startswith("!rewrite "): # 1.02 - !rewrite
         print ("\n" , time_now , " --- ", message.content )
 
         await message.delete(1172740959885332510)
 
-    if message.content.startswith("!grouplist "):
-        print ("\n" , time_now , " --- ", message.content )
+    if message.content.startswith("!delete "): # 1.03 - !delete
+        number = int(message.content.split()[1])
+        messages = await ctx.channel.history(limit=number + 1).flatten()
+        for each_message in messages:
+            await each_message.delete()
 
+    if message.content.startswith("!grouplist "): # 1.04 - !grouplist
+        print ("\n" , time_now , " --- ", message.content )
+        
         bot_message = message.content.replace("!grouplist ", '')
 
-        if role.name() == bot_message:
-            bot_send = role.members()
+        async def getuser(ctx, role: discord.Role):
+            await ctx.send("\n".join(str(member) for member in role.members))
+
+        send_message = getuser(role='Conquerors')
+
+        print("\n", send_message, "\n")
+
+        await message.channel.send( send_message )
+
+        """
+        if discord.Role.name() == bot_message:
+            bot_send = discord.Role.members()
             await message.channel.send()
         else:
             await message.channel.send('Ups! Wrong role name.', delete_after=10)
-
+        """
 # ==============================
 
 # TOKEN = security ID of the bot /!\ CONFIDENTIAL /!\

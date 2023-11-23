@@ -1,0 +1,1750 @@
+2023-11-18 00:19:51,097 - PyNaCl is not installed, voice will NOT be supported
+2023-11-18 00:19:51,103 - logging in using static token
+2023-11-18 00:19:52,084 - Shard ID None has connected to Gateway (Session ID: cab0b36313a36f88f88eeef9c1101a53).
+2023-11-18 00:20:29,697 - 2023-11-18 00:20:29 - Task: Anonymize - Content: test changelog
+2023-11-18 00:37:30,059 - PyNaCl is not installed, voice will NOT be supported
+2023-11-18 00:37:30,066 - logging in using static token
+2023-11-18 00:37:31,133 - Shard ID None has connected to Gateway (Session ID: 402e9646977bb092f7426299cf1c98f0).
+2023-11-18 00:37:46,536 - Task: Anonymize - Content: test changelog on Discord - Guild ID: 1153929255126835293
+2023-11-18 00:38:27,407 - PyNaCl is not installed, voice will NOT be supported
+2023-11-18 00:38:27,418 - logging in using static token
+2023-11-18 00:38:28,344 - Shard ID None has connected to Gateway (Session ID: 42b155f97ed9b9c72235bf21780d4a4f).
+2023-11-18 00:38:32,585 - Task: Anonymize - Content: again, an other test - Guild ID: 1153929255126835293
+2023-11-18 00:39:05,811 - Task: Anonymize - Content: # Servers
+
+**We're currently playing in:**
+
+\u2705  Server 01
+
+. - Guild ID: 1153929255126835293
+2023-11-18 00:39:43,257 - PyNaCl is not installed, voice will NOT be supported
+2023-11-18 00:39:43,263 - logging in using static token
+2023-11-18 00:39:44,223 - Shard ID None has connected to Gateway (Session ID: 53d1b7f1c03eeb4fcc12e4256a8fec1e).
+2023-11-18 00:39:55,245 - Task: Anonymize - Content: # Servers
+
+**We're currently playing in:**
+
+\u2705  Server 01
+
+. - Guild ID: 1153929255126835293
+2023-11-18 00:40:14,017 - Task: Anonymize - Content: # Servers
+
+**We're currently playing in:**
+
+\u2705  Server 01
+
+. - Guild ID: 1153929255126835293
+2023-11-18 00:49:28,226 - PyNaCl is not installed, voice will NOT be supported
+2023-11-18 00:49:28,235 - logging in using static token
+2023-11-18 00:49:29,178 - Shard ID None has connected to Gateway (Session ID: 82d52e2c982d7f0debb0a29f6704f48e).
+2023-11-18 00:49:38,679 - Ignoring exception in command delete
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\__Python\_DiscordBot\main.py", line 90, in delete_messages
+    messages = await ctx.channel.history(limit=num_messages + 1).flatten()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'async_generator' object has no attribute 'flatten'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: 'async_generator' object has no attribute 'flatten'
+2023-11-18 00:49:43,828 - Ignoring exception in command delete
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\__Python\_DiscordBot\main.py", line 90, in delete_messages
+    messages = await ctx.channel.history(limit=num_messages + 1).flatten()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'async_generator' object has no attribute 'flatten'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: 'async_generator' object has no attribute 'flatten'
+2023-11-18 00:51:53,939 - PyNaCl is not installed, voice will NOT be supported
+2023-11-18 00:51:53,945 - logging in using static token
+2023-11-18 00:51:54,850 - Shard ID None has connected to Gateway (Session ID: 5433293e5431b3c747693bea8f465cc9).
+2023-11-18 00:52:06,293 - Ignoring exception in command delete
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\__Python\_DiscordBot\main.py", line 90, in delete_messages
+    messages = await ctx.channel.history(limit=num_messages + 1).flatten()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'async_generator' object has no attribute 'flatten'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: 'async_generator' object has no attribute 'flatten'
+2023-11-18 00:53:48,244 - PyNaCl is not installed, voice will NOT be supported
+2023-11-18 00:53:48,250 - logging in using static token
+2023-11-18 00:53:49,232 - Shard ID None has connected to Gateway (Session ID: ce4648ae80ed0ab5cdda0eba704124ad).
+2023-11-18 00:53:57,371 - Ignoring exception in command delete
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\__Python\_DiscordBot\main.py", line 90, in delete_messages
+    messages = await ctx.channel.history(limit=num_messages + 1).flatten()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'async_generator' object has no attribute 'flatten'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: 'async_generator' object has no attribute 'flatten'
+2023-11-18 00:55:57,729 - PyNaCl is not installed, voice will NOT be supported
+2023-11-18 00:55:57,735 - logging in using static token
+2023-11-18 00:55:58,606 - Shard ID None has connected to Gateway (Session ID: 8bd6a8c4ed5c0772312ce8ddada55eaa).
+2023-11-18 00:56:18,736 - Ignoring exception in command delete
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\__Python\_DiscordBot\main.py", line 90, in delete_messages
+    messages = await asyncio.gather(*ctx.channel.history(limit=num_messages + 1).flatten())
+                     ^^^^^^^
+NameError: name 'asyncio' is not defined
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: NameError: name 'asyncio' is not defined
+2023-11-18 00:58:24,559 - PyNaCl is not installed, voice will NOT be supported
+2023-11-18 00:58:24,577 - logging in using static token
+2023-11-18 00:58:25,565 - Shard ID None has connected to Gateway (Session ID: fbb35dda45554e3dba9b06f3524ac08f).
+2023-11-18 00:58:33,960 - Ignoring exception in command delete
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\__Python\_DiscordBot\main.py", line 93, in delete_messages
+    messages = await asyncio.gather(*ctx.channel.history(limit=num_messages + 1).flatten())
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'async_generator' object has no attribute 'flatten'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: 'async_generator' object has no attribute 'flatten'
+2023-11-18 01:00:29,702 - PyNaCl is not installed, voice will NOT be supported
+2023-11-18 01:00:29,712 - logging in using static token
+2023-11-18 01:00:30,689 - Shard ID None has connected to Gateway (Session ID: e71f181e310a0d115691139969058f8e).
+2023-11-18 01:00:37,870 - Ignoring exception in command delete
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\__Python\_DiscordBot\main.py", line 93, in delete_messages
+    messages = await ctx.channel.history(limit=num_messages + 1).flatten()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'async_generator' object has no attribute 'flatten'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: 'async_generator' object has no attribute 'flatten'
+2023-11-18 01:01:41,917 - PyNaCl is not installed, voice will NOT be supported
+2023-11-18 01:01:41,924 - logging in using static token
+2023-11-18 01:01:43,004 - Shard ID None has connected to Gateway (Session ID: 9a3416ca4eb3c5117daf58abdfec6f2e).
+2023-11-18 01:01:48,940 - Ignoring exception in command delete
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\__Python\_DiscordBot\main.py", line 93, in delete_messages
+    messages = await ctx.channel.history(limit=num_messages + 1).flatten()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'async_generator' object has no attribute 'flatten'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: 'async_generator' object has no attribute 'flatten'
+2023-11-18 01:03:13,237 - PyNaCl is not installed, voice will NOT be supported
+2023-11-18 01:03:13,244 - logging in using static token
+2023-11-18 01:03:14,414 - Shard ID None has connected to Gateway (Session ID: b109963ef4f05b853d10295a4da0222b).
+2023-11-18 01:03:30,558 - Task: Delete Messages - Number of Messages: 3 - Guild ID: 1153929255126835293
+2023-11-18 01:03:45,013 - Task: Delete Messages - Number of Messages: 3 - Guild ID: 1153929255126835293
+2023-11-18 01:04:41,657 - PyNaCl is not installed, voice will NOT be supported
+2023-11-18 01:04:41,663 - logging in using static token
+2023-11-18 01:04:42,724 - Shard ID None has connected to Gateway (Session ID: 5b29b2b529c8256615628b754d2d6c85).
+2023-11-18 01:04:55,084 - Task: Delete Messages - Number of Messages: 3 - Guild ID: 1153929255126835293
+2023-11-18 01:05:05,872 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1175211305028829214 responded with 429. Retrying in 0.72 seconds.
+2023-11-18 01:05:07,056 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1175211293960060928 responded with 429. Retrying in 0.53 seconds.
+2023-11-18 01:05:08,118 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1175211255129182209 responded with 429. Retrying in 0.47 seconds.
+2023-11-18 01:05:09,279 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1175211233562075146 responded with 429. Retrying in 0.30 seconds.
+2023-11-18 01:05:09,925 - Task: Delete Messages - Number of Messages: 10 - Guild ID: 1153929255126835293
+2023-11-18 01:05:17,588 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1174145547549024276 responded with 429. Retrying in 0.30 seconds.
+2023-11-18 01:05:18,658 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1174145173408731178 responded with 429. Retrying in 0.30 seconds.
+2023-11-18 01:05:19,478 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1174142760945721384 responded with 429. Retrying in 0.35 seconds.
+2023-11-18 01:05:20,357 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1174142528220561408 responded with 429. Retrying in 0.46 seconds.
+2023-11-18 01:05:21,211 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1174141286991802368 responded with 429. Retrying in 0.61 seconds.
+2023-11-18 01:05:22,298 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1174141090195058839 responded with 429. Retrying in 0.52 seconds.
+2023-11-18 01:05:23,352 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1174140898968342599 responded with 429. Retrying in 0.47 seconds.
+2023-11-18 01:05:24,470 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1174136437143240724 responded with 429. Retrying in 0.35 seconds.
+2023-11-18 01:05:25,263 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1174136206313934948 responded with 429. Retrying in 0.55 seconds.
+2023-11-18 01:05:26,298 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1174135938155298876 responded with 429. Retrying in 0.53 seconds.
+2023-11-18 01:05:27,186 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1174135655257878601 responded with 429. Retrying in 0.63 seconds.
+2023-11-18 01:05:28,405 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1174131792790433883 responded with 429. Retrying in 0.41 seconds.
+2023-11-18 01:05:29,207 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1174131704793927722 responded with 429. Retrying in 0.61 seconds.
+2023-11-18 01:05:30,215 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1174131543350972416 responded with 429. Retrying in 0.60 seconds.
+2023-11-18 01:05:31,270 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1174131246931120169 responded with 429. Retrying in 0.55 seconds.
+2023-11-18 01:05:32,320 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1174131189800517665 responded with 429. Retrying in 0.50 seconds.
+2023-11-18 01:05:33,266 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1174131188550602812 responded with 429. Retrying in 0.55 seconds.
+2023-11-18 01:05:34,182 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1174131055435993198 responded with 429. Retrying in 0.63 seconds.
+2023-11-18 01:05:35,249 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1174130857905242153 responded with 429. Retrying in 0.58 seconds.
+2023-11-18 01:05:36,434 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1174129005222441130 responded with 429. Retrying in 0.39 seconds.
+2023-11-18 01:05:37,305 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1174128668713418782 responded with 429. Retrying in 0.51 seconds.
+2023-11-18 01:05:38,253 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1174079774029774858 responded with 429. Retrying in 0.58 seconds.
+2023-11-18 01:05:39,217 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1174079226597626028 responded with 429. Retrying in 0.60 seconds.
+2023-11-18 01:05:40,207 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1174077932243783800 responded with 429. Retrying in 0.61 seconds.
+2023-11-18 01:05:41,207 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1174077545310863472 responded with 429. Retrying in 0.61 seconds.
+2023-11-18 01:05:42,214 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1174076001072971837 responded with 429. Retrying in 0.60 seconds.
+2023-11-18 01:05:43,344 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1174063819253887036 responded with 429. Retrying in 0.48 seconds.
+2023-11-18 01:05:44,211 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1174062176378556456 responded with 429. Retrying in 0.61 seconds.
+2023-11-18 01:05:45,445 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1174061291225223200 responded with 429. Retrying in 0.40 seconds.
+2023-11-18 01:05:46,241 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1174060838341058581 responded with 429. Retrying in 0.60 seconds.
+2023-11-18 01:05:47,207 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1174059593379364944 responded with 429. Retrying in 0.61 seconds.
+2023-11-18 01:05:48,297 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1172748771680063529 responded with 429. Retrying in 0.53 seconds.
+2023-11-18 01:05:49,377 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1172748532311130152 responded with 429. Retrying in 0.44 seconds.
+2023-11-18 01:05:50,377 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1172748398693195786 responded with 429. Retrying in 0.44 seconds.
+2023-11-18 01:05:51,212 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1172745341255290915 responded with 429. Retrying in 0.61 seconds.
+2023-11-18 01:05:52,275 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1172745321068118056 responded with 429. Retrying in 0.55 seconds.
+2023-11-18 01:05:53,313 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1172745284745433181 responded with 429. Retrying in 0.51 seconds.
+2023-11-18 01:05:54,199 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1172744827364974672 responded with 429. Retrying in 0.62 seconds.
+2023-11-18 01:05:55,208 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1172744581994008578 responded with 429. Retrying in 0.61 seconds.
+2023-11-18 01:05:56,227 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1172744556719112212 responded with 429. Retrying in 0.60 seconds.
+2023-11-18 01:05:57,204 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1172744210605150308 responded with 429. Retrying in 0.61 seconds.
+2023-11-18 01:05:58,221 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1172744171551993866 responded with 429. Retrying in 0.60 seconds.
+2023-11-18 01:05:59,224 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1172663998542512229 responded with 429. Retrying in 0.60 seconds.
+2023-11-18 01:06:00,255 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1172650631312453773 responded with 429. Retrying in 0.56 seconds.
+2023-11-18 01:06:01,199 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1172650618607911095 responded with 429. Retrying in 0.63 seconds.
+2023-11-18 01:06:02,365 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1172648212985806919 responded with 429. Retrying in 0.46 seconds.
+2023-11-18 01:06:03,360 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1172648198611931186 responded with 429. Retrying in 0.46 seconds.
+2023-11-18 01:06:04,377 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1172402835795738674 responded with 429. Retrying in 0.44 seconds.
+2023-11-18 01:06:05,212 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1172391104864325712 responded with 429. Retrying in 0.61 seconds.
+2023-11-18 01:06:06,501 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1172391085562134531 responded with 429. Retrying in 0.32 seconds.
+2023-11-18 01:06:07,194 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1172391015483711490 responded with 429. Retrying in 0.62 seconds.
+2023-11-18 01:06:08,192 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1172390862475513889 responded with 429. Retrying in 0.63 seconds.
+2023-11-18 01:06:09,378 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1172390830749798420 responded with 429. Retrying in 0.44 seconds.
+2023-11-18 01:06:10,233 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1172390771995979840 responded with 429. Retrying in 0.59 seconds.
+2023-11-18 01:06:11,193 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1172389590095642677 responded with 429. Retrying in 0.62 seconds.
+2023-11-18 01:06:12,211 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1172389528456146984 responded with 429. Retrying in 0.61 seconds.
+2023-11-18 01:06:13,293 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1172389256027721792 responded with 429. Retrying in 0.53 seconds.
+2023-11-18 01:06:14,318 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1172389255184650352 responded with 429. Retrying in 0.51 seconds.
+2023-11-18 01:06:15,284 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1172381061104271391 responded with 429. Retrying in 0.55 seconds.
+2023-11-18 01:06:16,753 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1172380840827813889 responded with 429. Retrying in 0.30 seconds.
+2023-11-18 01:06:17,472 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1172380840370634812 responded with 429. Retrying in 0.34 seconds.
+2023-11-18 01:06:18,167 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1172380006220038144 responded with 429. Retrying in 0.65 seconds.
+2023-11-18 01:06:19,268 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1172379729962225734 responded with 429. Retrying in 0.55 seconds.
+2023-11-18 01:06:20,333 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1172379538295115806 responded with 429. Retrying in 0.49 seconds.
+2023-11-18 01:06:21,283 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1172379327476801536 responded with 429. Retrying in 0.53 seconds.
+2023-11-18 01:06:22,218 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1172375290954141726 responded with 429. Retrying in 0.60 seconds.
+2023-11-18 01:06:23,322 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1172373652445069384 responded with 429. Retrying in 0.50 seconds.
+2023-11-18 01:06:24,202 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1172352950614630481 responded with 429. Retrying in 0.62 seconds.
+2023-11-18 01:06:25,243 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1172352783865884702 responded with 429. Retrying in 0.58 seconds.
+2023-11-18 01:06:26,211 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1172351310385922129 responded with 429. Retrying in 0.60 seconds.
+2023-11-18 01:06:27,456 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1172350822089232454 responded with 429. Retrying in 0.37 seconds.
+2023-11-18 01:06:28,280 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1172350564332482692 responded with 429. Retrying in 0.55 seconds.
+2023-11-18 01:06:29,360 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1172350388528226385 responded with 429. Retrying in 0.46 seconds.
+2023-11-18 01:06:30,276 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1172349845864992818 responded with 429. Retrying in 0.54 seconds.
+2023-11-18 01:06:31,180 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1172349453374603274 responded with 429. Retrying in 0.64 seconds.
+2023-11-18 01:06:32,434 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1172349425801240648 responded with 429. Retrying in 0.38 seconds.
+2023-11-18 01:06:33,199 - Task: Delete Messages - Number of Messages: 100 - Guild ID: 1153929255126835293
+2023-11-18 01:13:52,254 - logging in using static token
+2023-11-18 01:13:53,562 - Shard ID None has connected to Gateway (Session ID: 28cb41abbc083f4b0e104c623199cd02).
+2023-11-18 01:14:16,775 - Task: Anonymize - Content: mochi mochi?! - Guild ID: 1153929255126835293
+2023-11-18 01:14:24,929 - Task: Anonymize - Content: someone hear me?! - Guild ID: 1153929255126835293
+2023-11-18 01:14:29,441 - Task: Delete Messages - Number of Messages: 1 - Guild ID: 1153929255126835293
+2023-11-18 01:16:17,807 - logging in using static token
+2023-11-18 01:16:18,698 - Shard ID None has connected to Gateway (Session ID: d75e63f6e7664cedc7ac3ba451c6cde3).
+2023-11-18 01:16:58,478 - Task: Anonymize - Content: Is the changelog more readable now? - Guild ID: 1153929255126835293
+2023-11-18 01:27:35,544 - logging in using static token
+2023-11-18 01:27:36,599 - Shard ID None has connected to Gateway (Session ID: 9b39a327dfad3c76b325ffd1f6a57188).
+2023-11-18 01:28:49,059 - Ignoring exception in command rewrite
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\__Python\_DiscordBot\main.py", line 152, in rewrite_message
+    await ctx.send(f'{message.content}')
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\context.py", line 1024, in send
+    return await super().send(
+           ^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\abc.py", line 1561, in send
+    data = await state.http.send_message(channel.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\http.py", line 745, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50006): Cannot send an empty message
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: HTTPException: 400 Bad Request (error code: 50006): Cannot send an empty message
+2023-11-18 01:29:20,989 - Task: Rewrite message - User ID: 233559457739571200, Message ID: 1175230905430851696 - Guild ID: 1153929255126835293
+2023-11-18 01:37:49,886 - logging in using static token
+2023-11-18 01:37:50,963 - Shard ID None has connected to Gateway (Session ID: e4d952d11e7daa6347496a71ccc0e6f4).
+2023-11-18 01:41:07,759 - logging in using static token
+2023-11-18 01:41:08,744 - Shard ID None has connected to Gateway (Session ID: b33d8838a2a4436de04cff4354a91db3).
+2023-11-18 01:41:29,901 - Channel Name: commands - Task: Anonymize - do I'm leader and can use the bot?
+2023-11-18 01:48:59,247 - logging in using static token
+2023-11-18 01:49:00,222 - Shard ID None has connected to Gateway (Session ID: de1e0074c7cb368ff174ef06732f6a9b).
+2023-11-18 01:49:35,547 - Ignoring exception in command rewrite
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\__Python\_DiscordBot\main.py", line 162, in rewrite_message
+    await ctx.send(content=message.content)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\context.py", line 1024, in send
+    return await super().send(
+           ^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\abc.py", line 1561, in send
+    data = await state.http.send_message(channel.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\http.py", line 745, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50006): Cannot send an empty message
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: HTTPException: 400 Bad Request (error code: 50006): Cannot send an empty message
+2023-11-18 01:52:30,482 - logging in using static token
+2023-11-18 01:52:31,359 - Shard ID None has connected to Gateway (Session ID: 28b7893653dcc90b4687903d50ffba37).
+2023-11-18 01:53:08,703 - Ignoring exception in command rewrite
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\__Python\_DiscordBot\main.py", line 174, in rewrite_message
+    await ctx.send(file=discord.File(attachment_content, attachment.filename))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\file.py", line 97, in __init__
+    self.fp = open(fp, 'rb')
+              ^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x89 in position 0: invalid start byte
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: UnicodeDecodeError: 'utf-8' codec can't decode byte 0x89 in position 0: invalid start byte
+2023-11-18 01:55:05,567 - logging in using static token
+2023-11-18 01:55:06,468 - Shard ID None has connected to Gateway (Session ID: 46db4427c6428ed96ba3aacf4f2f90ea).
+2023-11-18 01:55:37,320 - Ignoring exception in command rewrite
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\__Python\_DiscordBot\main.py", line 174, in rewrite_message
+    await ctx.send(file=discord.File(attachment_content, filename=attachment.filename))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\file.py", line 97, in __init__
+    self.fp = open(fp, 'rb')
+              ^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x89 in position 0: invalid start byte
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: UnicodeDecodeError: 'utf-8' codec can't decode byte 0x89 in position 0: invalid start byte
+2023-11-18 01:58:00,912 - logging in using static token
+2023-11-18 01:58:02,062 - Shard ID None has connected to Gateway (Session ID: 55f17948705e7027db26a52dca377853).
+2023-11-18 02:00:21,377 - Channel Name: commands - User: ririlegeek - Task: Rewrite message - User ID: 233559457739571200, Message ID: 1175238982611767376
+2023-11-18 02:01:31,742 - logging in using static token
+2023-11-18 02:01:32,927 - Shard ID None has connected to Gateway (Session ID: a1ef1b47926472fdb216647f858c9f5b).
+2023-11-18 02:02:12,813 - Channel Name: commands - User: ririlegeek - Task: Rewrite message - User ID: 233559457739571200, Message ID: 1175239444236877925
+2023-11-18 02:20:38,237 - logging in using static token
+2023-11-18 02:20:39,429 - Shard ID None has connected to Gateway (Session ID: 58f03be9e17eb6bdb19c49b0470e5e23).
+2023-11-18 02:20:49,457 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172745374902005870/messages/1175227475643617290 responded with 429. Retrying in 0.59 seconds.
+2023-11-18 02:20:50,477 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172745374902005870/messages/1175227441518743663 responded with 429. Retrying in 0.57 seconds.
+2023-11-18 02:20:51,401 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172745374902005870/messages/1175225497005862984 responded with 429. Retrying in 0.65 seconds.
+2023-11-18 02:20:52,401 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172745374902005870/messages/1175225147809087500 responded with 429. Retrying in 0.65 seconds.
+2023-11-18 02:20:53,240 - Channel Name: logs - User: ririlegeek - Task: Delete messages - 10
+2023-11-18 02:20:59,724 - Channel Name: logs - User: ririlegeek - Task: Delete messages - 5
+2023-11-18 02:21:05,191 - Channel Name: logs - User: ririlegeek - Task: Delete messages - 5
+2023-11-18 02:21:09,306 - Channel Name: logs - User: ririlegeek - Task: Delete messages - 1
+2023-11-18 02:21:41,672 - Channel Name: server-status - User: ririlegeek - Task: Rewrite message - User ID: 233559457739571200, Message ID: 1171665546635386930
+2023-11-18 02:22:08,734 - Channel Name: server-status - User: ririlegeek - Task: Rewrite message - User ID: 233559457739571200, Message ID: 1171668103277592597
+2023-11-18 02:22:29,023 - Channel Name: server-status - User: ririlegeek - Task: Rewrite message - User ID: 233559457739571200, Message ID: 1171859631463739442
+2023-11-18 02:22:48,839 - Channel Name: server-status - User: ririlegeek - Task: Rewrite message - User ID: 233559457739571200, Message ID: 1171859774992822302
+2023-11-18 02:26:09,903 - Channel Name: server-status - User: ririlegeek - Task: Anonymize - # Want to be a conqueror?!
+
+Look there: <#1171661982097752164>
+2023-11-18 02:26:45,429 - Channel Name: server-status - User: ririlegeek - Task: Delete messages - 1
+2023-11-18 02:27:15,789 - Channel Name: server-status - User: ririlegeek - Task: Anonymize - .
+
+# Want to be a Conqueror?!
+
+Look there: <#1171661982097752164>
+2023-11-18 02:27:30,229 - Channel Name: server-status - User: ririlegeek - Task: Anonymize - .
+
+# Servers where we play:
+2023-11-18 02:27:51,335 - Channel Name: server-status - User: ririlegeek - Task: Anonymize - \u2705  Server 01 - Polyphenia
+2023-11-18 02:29:02,920 - Channel Name: recruitment - User: ririlegeek - Task: Rewrite message - User ID: 233559457739571200, Message ID: 1171662027345891388
+2023-11-18 02:29:13,703 - Channel Name: recruitment - User: ririlegeek - Task: Rewrite message - User ID: 233559457739571200, Message ID: 1171662188600107028
+2023-11-18 02:30:13,404 - Channel Name: recruitment - User: ririlegeek - Task: Rewrite message - User ID: 233559457739571200, Message ID: 1175116888439799932
+2023-11-18 02:30:34,466 - Channel Name: support - User: ririlegeek - Task: Rewrite message - User ID: 233559457739571200, Message ID: 1171684599882055770
+2023-11-18 02:48:27,865 - logging in using static token
+2023-11-18 02:48:28,880 - Shard ID None has connected to Gateway (Session ID: 62335dc72ee27dd5e5f9e68a5023a2ea).
+2023-11-18 02:51:19,893 - logging in using static token
+2023-11-18 02:51:20,841 - Shard ID None has connected to Gateway (Session ID: 55bcaff0fbffa41ae6cf8a2e9e86e43e).
+2023-11-18 02:53:25,083 - logging in using static token
+2023-11-18 02:53:25,974 - Shard ID None has connected to Gateway (Session ID: 08b1a798330ca03084ecb6c60b860ad3).
+2023-11-18 03:02:12,428 - logging in using static token
+2023-11-18 03:02:13,511 - Shard ID None has connected to Gateway (Session ID: c68b27bf738830d133f9caf275b9db7f).
+2023-11-18 03:02:58,436 - Channel Name: members-list - User: ririlegeek - Task: Anonymize - # Members list of Server 01
+2023-11-18 03:03:49,873 - Channel Name: members-list - User: ririlegeek - Task: Delete messages - 3
+2023-11-18 13:46:14,621 - logging in using static token
+2023-11-18 13:46:16,083 - Shard ID None has connected to Gateway (Session ID: 51014b346113a116b812759119f0ef8b).
+2023-11-18 13:58:02,653 - Channel Name: s01-attack-time - User: ririlegeek - Task: Anonymize - # Lv. 3 Fort Merope - 7:00 pm UTC (19:00)
+2023-11-18 13:59:08,781 - Channel Name: s01-attack-time - User: ririlegeek - Task: Anonymize - # Lv. 4 Antares Keep - 7:30 pm UTC (19:30)
+Maybe more if we need more time for Fort Merope.
+2023-11-18 14:02:22,970 - Can't keep up, shard ID None websocket is 18.1s behind.
+2023-11-18 14:12:40,948 - Can't keep up, shard ID None websocket is 17.2s behind.
+2023-11-18 14:36:30,644 - Shard ID None has successfully RESUMED session 51014b346113a116b812759119f0ef8b.
+2023-11-18 14:51:59,624 - logging in using static token
+2023-11-18 14:52:00,704 - Shard ID None has connected to Gateway (Session ID: 5f4f861fbaf54dc40af9c31d9e62edd7).
+2023-11-18 14:52:10,334 - Channel Name: commands - User: ririlegeek - Task: Anonymize - test logs
+2023-11-18 14:54:50,994 - Channel Name: commands - User: ririlegeek - Task: Anonymize - # logs tests
+If I use some emojis? \u2705
+2023-11-18 14:56:27,476 - logging in using static token
+2023-11-18 14:56:28,614 - Shard ID None has connected to Gateway (Session ID: bf6f26c1f256b135a82800b3f7a12a67).
+2023-11-18 14:56:38,912 - Channel Name: commands - User: ririlegeek - Task: Anonymize - test log again
+2023-11-18 14:57:02,372 - Channel Name: commands - User: ririlegeek - Task: Rewrite message - User ID: 1171954143968104458, Message ID: 1175434400721281076
+2023-11-18 14:57:52,784 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1175252495996555346 responded with 429. Retrying in 0.30 seconds.
+2023-11-18 14:57:53,486 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1175252494427897889 responded with 429. Retrying in 0.47 seconds.
+2023-11-18 14:57:54,379 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1175252492553031793 responded with 429. Retrying in 0.59 seconds.
+2023-11-18 14:57:55,397 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1175252491479298068 responded with 429. Retrying in 0.56 seconds.
+2023-11-18 14:57:56,201 - Channel Name: commands - User: ririlegeek - Task: Delete messages - 10
+2023-11-18 14:58:03,939 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1175251911780356228 responded with 429. Retrying in 0.30 seconds.
+2023-11-18 14:58:04,600 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1175251228666642463 responded with 429. Retrying in 0.36 seconds.
+2023-11-18 14:58:05,525 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1175251192213950485 responded with 429. Retrying in 0.43 seconds.
+2023-11-18 14:58:06,360 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1175239503481413743 responded with 429. Retrying in 0.59 seconds.
+2023-11-18 14:58:07,180 - Channel Name: commands - User: ririlegeek - Task: Delete messages - 10
+2023-11-18 14:58:15,220 - Channel Name: commands - User: ririlegeek - Task: Delete messages - 6
+2023-11-18 20:26:28,357 - logging in using static token
+2023-11-18 20:26:29,408 - Shard ID None has connected to Gateway (Session ID: efd94e2c5001edeaffe553014f82d9ed).
+2023-11-18 20:58:33,338 - logging in using static token
+2023-11-18 20:58:34,292 - Shard ID None has connected to Gateway (Session ID: 2302c9621779586e610788fb3f1ebf53).
+2023-11-18 20:59:00,261 - Ignoring exception in command create_thread
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\__Python\_DiscordBot\main.py", line 213, in create_thread
+    view = View()
+           ^^^^
+NameError: name 'View' is not defined
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: NameError: name 'View' is not defined
+2023-11-18 20:59:51,504 - logging in using static token
+2023-11-18 20:59:53,789 - Shard ID None has connected to Gateway (Session ID: 2e449a75c9620d352fec52786ed480df).
+2023-11-18 21:00:21,897 - Ignoring exception in command create_thread
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\__Python\_DiscordBot\main.py", line 217, in create_thread
+    button = Button(label="Create Thread", custom_id="create_thread_button")
+             ^^^^^^
+NameError: name 'Button' is not defined
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: NameError: name 'Button' is not defined
+2023-11-18 21:01:58,450 - logging in using static token
+2023-11-18 21:01:59,429 - Shard ID None has connected to Gateway (Session ID: 8a9c264842012d2f4feeed2a84039b3d).
+2023-11-18 21:02:20,606 - Ignoring exception in command create_thread
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\__Python\_DiscordBot\main.py", line 244, in create_thread
+    view.add_callback(button_callback, "create_thread_button")
+    ^^^^^^^^^^^^^^^^^
+AttributeError: 'View' object has no attribute 'add_callback'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: 'View' object has no attribute 'add_callback'
+2023-11-18 21:03:51,634 - logging in using static token
+2023-11-18 21:03:52,676 - Shard ID None has connected to Gateway (Session ID: a53a021f077257381636cc4359a94b8f).
+2023-11-18 21:05:14,224 - logging in using static token
+2023-11-18 21:05:15,223 - Shard ID None has connected to Gateway (Session ID: 07ade2cbb1afba303058e15a527e90bd).
+2023-11-18 21:10:45,243 - logging in using static token
+2023-11-18 21:10:46,315 - Shard ID None has connected to Gateway (Session ID: 2f19a35106fdd1f3e88258cb4b258291).
+2023-11-18 21:14:56,469 - logging in using static token
+2023-11-18 21:14:57,506 - Shard ID None has connected to Gateway (Session ID: 5c8405fa545d27f15ebcc61f013f520d).
+2023-11-18 21:17:14,308 - logging in using static token
+2023-11-18 21:17:15,647 - Shard ID None has connected to Gateway (Session ID: 1354196e0d0236d39b50d1aa81f78e63).
+2023-11-19 00:55:30,554 - logging in using static token
+2023-11-19 00:55:31,752 - Shard ID None has connected to Gateway (Session ID: e19dad124036e1df4dfd38f9ac53ac94).
+2023-11-19 00:55:38,188 - Channel Name: \u2328-commands - User: ririlegeek - Task: Anonymize - test
+2023-11-19 00:55:59,643 - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "ticket" is not found
+2023-11-19 00:57:26,136 - logging in using static token
+2023-11-19 00:57:27,163 - Shard ID None has connected to Gateway (Session ID: 2af0e09a8da4ebde055ac0ee27d4adff).
+2023-11-19 00:57:40,728 - Ignoring exception in command create_private_discussion_button
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\__Python\_DiscordBot\main.py", line 222, in create_private_discussion_button
+    await ctx.send("Click the button to create a private discussion!", view=view)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\context.py", line 1024, in send
+    return await super().send(
+           ^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\abc.py", line 1545, in send
+    with handle_message_parameters(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\http.py", line 188, in handle_message_parameters
+    payload['components'] = view.to_components()
+                            ^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ui\view.py", line 221, in to_components
+    children = [item.to_component_dict() for item in group]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ui\view.py", line 221, in <listcomp>
+    children = [item.to_component_dict() for item in group]
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ui\button.py", line 220, in to_component_dict
+    return self._underlying.to_dict()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\components.py", line 203, in to_dict
+    'style': self.style.value,
+             ^^^^^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute 'value'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: 'int' object has no attribute 'value'
+2023-11-19 01:01:34,070 - logging in using static token
+2023-11-19 01:01:35,036 - Shard ID None has connected to Gateway (Session ID: 9764c9038b1a9f6eeb519e3441af25c6).
+2023-11-19 01:01:43,185 - Channel Name: \u2328-commands - User: ririlegeek - Task: Anonymize - test
+2023-11-19 01:01:48,061 - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "ticket" is not found
+2023-11-19 01:02:01,985 - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "create_private_discussion" is not found
+2023-11-19 01:02:13,215 - Ignoring exception in command create_private_discussion_button
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\__Python\_DiscordBot\main.py", line 222, in create_private_discussion_button
+    await ctx.send("Click the button to create a private discussion!", view=view)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\context.py", line 1024, in send
+    return await super().send(
+           ^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\abc.py", line 1545, in send
+    with handle_message_parameters(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\http.py", line 188, in handle_message_parameters
+    payload['components'] = view.to_components()
+                            ^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ui\view.py", line 221, in to_components
+    children = [item.to_component_dict() for item in group]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ui\view.py", line 221, in <listcomp>
+    children = [item.to_component_dict() for item in group]
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ui\button.py", line 220, in to_component_dict
+    return self._underlying.to_dict()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\components.py", line 203, in to_dict
+    'style': self.style.value,
+             ^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'value'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: 'str' object has no attribute 'value'
+2023-11-19 01:03:31,484 - logging in using static token
+2023-11-19 01:03:32,390 - Shard ID None has connected to Gateway (Session ID: 9f88d85379978da84792ab13ebb35935).
+2023-11-19 01:03:42,041 - Ignoring exception in command create_private_discussion_button
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\__Python\_DiscordBot\main.py", line 214, in create_private_discussion_button
+    style=ButtonStyle.primary
+          ^^^^^^^^^^^
+NameError: name 'ButtonStyle' is not defined
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: NameError: name 'ButtonStyle' is not defined
+2023-11-19 01:11:36,111 - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001FAFC251310>
+2023-11-19 01:13:31,779 - logging in using static token
+2023-11-19 01:13:32,813 - Shard ID None has connected to Gateway (Session ID: 0a37cd60b2ee8555d4e0bd442fd8837c).
+2023-11-19 01:13:42,642 - Ignoring exception in command create_private_discussion_button
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\__Python\_DiscordBot\main.py", line 216, in create_private_discussion_button
+    style=interactions.ButtonStyle.primary  # Assurez-vous que le style est correctement défini
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\enum.py", line 784, in __getattr__
+    raise AttributeError(name) from None
+AttributeError: primary
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: primary
+2023-11-19 01:15:16,294 - logging in using static token
+2023-11-19 01:15:17,238 - Shard ID None has connected to Gateway (Session ID: 2898169b2049b88073c9f162a5fbc5db).
+2023-11-19 20:22:08,271 - logging in using static token
+2023-11-19 20:22:09,517 - Shard ID None has connected to Gateway (Session ID: dc35eb168bd1f3974ad5a151488ad56b).
+2023-11-19 20:25:03,458 - Ignoring exception in on_raw_reaction_add
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\__Python\_DiscordBot\main.py", line 232, in on_raw_reaction_add
+    if payload.emoji.name == '\U0001f680' and payload.message_id == bot.created_post_id:
+                                                           ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Bot' object has no attribute 'created_post_id'
+2023-11-19 20:25:03,728 - Channel Name: \u2328-bot-commands - User: ririlegeek - Task: Create post - test
+2023-11-19 20:47:06,156 - logging in using static token
+2023-11-19 20:47:07,358 - Shard ID None has connected to Gateway (Session ID: d8de0949323cdf8146c9300b40f19e17).
+2023-11-19 20:47:23,735 - Ignoring exception in command post
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 1021, in invoke
+    await self.prepare(ctx)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 938, in prepare
+    await self._parse_arguments(ctx)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 845, in _parse_arguments
+    transformed = await self.transform(ctx, param, attachments)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 697, in transform
+    raise MissingRequiredArgument(param)
+discord.ext.commands.errors.MissingRequiredArgument: content is a required argument that is missing.
+2023-11-19 20:48:15,653 - logging in using static token
+2023-11-19 20:48:16,843 - Shard ID None has connected to Gateway (Session ID: 70bea10ae753ca4eae586545851bdbb7).
+2023-11-19 20:48:36,516 - Ignoring exception in command post
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 1021, in invoke
+    await self.prepare(ctx)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 938, in prepare
+    await self._parse_arguments(ctx)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 845, in _parse_arguments
+    transformed = await self.transform(ctx, param, attachments)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 697, in transform
+    raise MissingRequiredArgument(param)
+discord.ext.commands.errors.MissingRequiredArgument: datetime_str is a required argument that is missing.
+2023-11-19 20:49:14,623 - logging in using static token
+2023-11-19 20:49:15,945 - Shard ID None has connected to Gateway (Session ID: 14b2406c9af1ffc55a559a1ab7958c12).
+2023-11-19 20:49:51,360 - Ignoring exception in on_raw_reaction_add
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\__Python\_DiscordBot\main.py", line 256, in on_raw_reaction_add
+    if payload.emoji.name == '\U0001f680' and payload.message_id == bot.created_post_id:
+                                                           ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Bot' object has no attribute 'created_post_id'
+2023-11-19 20:49:51,635 - Channel Name: \u2328-bot-commands - User: ririlegeek - Task: Create post - Test - 2023-11-19 00:00:00 (Timestamp: 1700348400)
+2023-11-19 21:57:51,129 - logging in using static token
+2023-11-19 21:57:52,481 - Shard ID None has connected to Gateway (Session ID: b08ce8d976df0e1898c1b1455d4a18f7).
+2023-11-19 21:58:17,568 - Channel Name: \u2328-bot-commands - User: ririlegeek - Task: Create post - Test - 2023-11-19 00:00:00 (Timestamp: 1700348400)
+2023-11-19 22:45:00,360 - logging in using static token
+2023-11-19 22:45:01,503 - Shard ID None has connected to Gateway (Session ID: 0e0a93fd5c6848661c46fa2110fda856).
+2023-11-19 22:45:50,085 - Ignoring exception in command post
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\__Python\_DiscordBot\main.py", line 219, in create_post
+    post_datetime = parser.parse(datetime_str)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\dateutil\parser\_parser.py", line 1368, in parse
+    return DEFAULTPARSER.parse(timestr, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\dateutil\parser\_parser.py", line 643, in parse
+    raise ParserError("Unknown string format: %s", timestr)
+dateutil.parser._parser.ParserError: Unknown string format: this
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: ParserError: Unknown string format: this
+2023-11-19 22:46:09,416 - logging in using static token
+2023-11-19 22:46:10,547 - Shard ID None has connected to Gateway (Session ID: 552fae2e5dfb622fb851d525737577ef).
+2023-11-19 22:46:38,067 - Ignoring exception in command post
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\__Python\_DiscordBot\main.py", line 219, in create_post
+    post_datetime = parser.parse(datetime_str)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\dateutil\parser\_parser.py", line 1368, in parse
+    return DEFAULTPARSER.parse(timestr, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\dateutil\parser\_parser.py", line 643, in parse
+    raise ParserError("Unknown string format: %s", timestr)
+dateutil.parser._parser.ParserError: Unknown string format: Test
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: ParserError: Unknown string format: Test
+2023-11-19 22:50:44,443 - logging in using static token
+2023-11-19 22:50:45,641 - Shard ID None has connected to Gateway (Session ID: 1f07d11465d2b18c94be1d9378432f5a).
+2023-11-19 22:51:11,575 - Channel Name: \u2328-bot-commands - User: ririlegeek - Task: Create post - 2023-11-19 - 2023-11-19 23:00:00 (Timestamp: 1700431200)
+2023-11-19 22:53:34,744 - logging in using static token
+2023-11-19 22:53:35,664 - Shard ID None has connected to Gateway (Session ID: 0e0514f985d21ba672567bc810f3b112).
+2023-11-19 22:53:47,144 - Ignoring exception in command post
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\__Python\_DiscordBot\main.py", line 219, in create_post
+    post_datetime = parser.parse(datetime_str)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\dateutil\parser\_parser.py", line 1368, in parse
+    return DEFAULTPARSER.parse(timestr, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\dateutil\parser\_parser.py", line 643, in parse
+    raise ParserError("Unknown string format: %s", timestr)
+dateutil.parser._parser.ParserError: Unknown string format: message
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: ParserError: Unknown string format: message
+2023-11-19 22:54:21,908 - Ignoring exception in command post
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\__Python\_DiscordBot\main.py", line 219, in create_post
+    post_datetime = parser.parse(datetime_str)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\dateutil\parser\_parser.py", line 1368, in parse
+    return DEFAULTPARSER.parse(timestr, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\dateutil\parser\_parser.py", line 643, in parse
+    raise ParserError("Unknown string format: %s", timestr)
+dateutil.parser._parser.ParserError: Unknown string format: test
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: ParserError: Unknown string format: test
+2023-11-20 00:27:53,480 - logging in using static token
+2023-11-20 00:27:54,746 - Shard ID None has connected to Gateway (Session ID: 9c6ae9147c54118b9c80e5f0695a0dcd).
+2023-11-20 00:28:20,217 - Ignoring exception in command post
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\__Python\_DiscordBot\main.py", line 219, in create_post
+    post_datetime = parser.parse(datetime_str)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\dateutil\parser\_parser.py", line 1368, in parse
+    return DEFAULTPARSER.parse(timestr, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\dateutil\parser\_parser.py", line 643, in parse
+    raise ParserError("Unknown string format: %s", timestr)
+dateutil.parser._parser.ParserError: Unknown string format: 2023-11-
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: ParserError: Unknown string format: 2023-11-
+2023-11-20 00:32:02,128 - logging in using static token
+2023-11-20 00:32:03,565 - Shard ID None has connected to Gateway (Session ID: 959d4eee23f4a50867a8a513ecb4c4cf).
+2023-11-20 00:32:40,189 - Task exception was never retrieved
+future: <Task finished name='discord.py: on_message' coro=<Client._run_event() done, defined at c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\client.py:433> exception=SystemExit(2)>
+Traceback (most recent call last):
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 432, in main
+    log.reraise_exception(
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 430, in main
+    run()
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 284, in run_file
+    runpy.run_path(target, run_name="__main__")
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 321, in run_path
+    return _run_module_code(code, init_globals, run_name,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 135, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 124, in _run_code
+    exec(code, run_globals)
+  File "C:\__Python\_DiscordBot\main.py", line 287, in <module>
+    bot.run(token)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1395, in on_message
+    await self.process_commands(message)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1392, in process_commands
+    await self.invoke(ctx)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\__Python\_DiscordBot\main.py", line 229, in create_post
+    args = parser.parse_args(args_str.split())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\argparse.py", line 1872, in parse_args
+    self.error(msg % ' '.join(argv))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\argparse.py", line 2630, in error
+    self.exit(2, _('%(prog)s: error: %(message)s\n') % args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\argparse.py", line 2617, in exit
+    _sys.exit(status)
+SystemExit: 2
+2023-11-20 00:32:59,854 - logging in using static token
+2023-11-20 00:33:00,889 - Shard ID None has connected to Gateway (Session ID: 2bb3424001ed846de37fec8cf935b532).
+2023-11-20 00:42:25,247 - Channel Name: \U0001f92f-leader-chat - User: ririlegeek - Task: Anonymize - It's because I love you Riri, you're my father.
+2023-11-20 00:45:11,552 - Task exception was never retrieved
+future: <Task finished name='discord.py: on_message' coro=<Client._run_event() done, defined at c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\client.py:433> exception=SystemExit(2)>
+Traceback (most recent call last):
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 432, in main
+    log.reraise_exception(
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 430, in main
+    run()
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 284, in run_file
+    runpy.run_path(target, run_name="__main__")
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 321, in run_path
+    return _run_module_code(code, init_globals, run_name,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 135, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 124, in _run_code
+    exec(code, run_globals)
+  File "C:\__Python\_DiscordBot\main.py", line 287, in <module>
+    bot.run(token)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1395, in on_message
+    await self.process_commands(message)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1392, in process_commands
+    await self.invoke(ctx)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\__Python\_DiscordBot\main.py", line 229, in create_post
+    args = parser.parse_args(args_str.split())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\argparse.py", line 1872, in parse_args
+    self.error(msg % ' '.join(argv))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\argparse.py", line 2630, in error
+    self.exit(2, _('%(prog)s: error: %(message)s\n') % args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\argparse.py", line 2617, in exit
+    _sys.exit(status)
+SystemExit: 2
+2023-11-20 00:46:02,970 - logging in using static token
+2023-11-20 00:46:04,063 - Shard ID None has connected to Gateway (Session ID: d0e17587c275c12cdabe833304be8568).
+2023-11-20 00:48:21,800 - Task exception was never retrieved
+future: <Task finished name='discord.py: on_message' coro=<Client._run_event() done, defined at c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\client.py:433> exception=SystemExit(2)>
+Traceback (most recent call last):
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 432, in main
+    log.reraise_exception(
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 430, in main
+    run()
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 284, in run_file
+    runpy.run_path(target, run_name="__main__")
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 321, in run_path
+    return _run_module_code(code, init_globals, run_name,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 135, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 124, in _run_code
+    exec(code, run_globals)
+  File "C:\__Python\_DiscordBot\main.py", line 287, in <module>
+    bot.run(token)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1395, in on_message
+    await self.process_commands(message)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1392, in process_commands
+    await self.invoke(ctx)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\__Python\_DiscordBot\main.py", line 229, in create_post
+    args = parser.parse_args(args_str.split())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\argparse.py", line 1872, in parse_args
+    self.error(msg % ' '.join(argv))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\argparse.py", line 2630, in error
+    self.exit(2, _('%(prog)s: error: %(message)s\n') % args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\argparse.py", line 2617, in exit
+    _sys.exit(status)
+SystemExit: 2
+2023-11-20 00:49:07,540 - logging in using static token
+2023-11-20 00:49:08,608 - Shard ID None has connected to Gateway (Session ID: 7d7331953660ba0fbe1b0bd247c94edc).
+2023-11-20 00:50:17,927 - Task exception was never retrieved
+future: <Task finished name='discord.py: on_message' coro=<Client._run_event() done, defined at c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\client.py:433> exception=SystemExit(2)>
+Traceback (most recent call last):
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 432, in main
+    log.reraise_exception(
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 430, in main
+    run()
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 284, in run_file
+    runpy.run_path(target, run_name="__main__")
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 321, in run_path
+    return _run_module_code(code, init_globals, run_name,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 135, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 124, in _run_code
+    exec(code, run_globals)
+  File "C:\__Python\_DiscordBot\main.py", line 283, in <module>
+    bot.run(token)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1395, in on_message
+    await self.process_commands(message)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1392, in process_commands
+    await self.invoke(ctx)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\__Python\_DiscordBot\main.py", line 224, in create_post
+    args = parser.parse_args(ctx.message.content.split()[1:])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\argparse.py", line 1872, in parse_args
+    self.error(msg % ' '.join(argv))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\argparse.py", line 2630, in error
+    self.exit(2, _('%(prog)s: error: %(message)s\n') % args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\argparse.py", line 2617, in exit
+    _sys.exit(status)
+SystemExit: 2
+2023-11-20 00:50:48,447 - logging in using static token
+2023-11-20 00:50:49,884 - Shard ID None has connected to Gateway (Session ID: 3eff0c560e221a2e8107e280763eda2a).
+2023-11-20 00:52:08,747 - Task exception was never retrieved
+future: <Task finished name='discord.py: on_message' coro=<Client._run_event() done, defined at c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\client.py:433> exception=SystemExit(2)>
+Traceback (most recent call last):
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 432, in main
+    log.reraise_exception(
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 430, in main
+    run()
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 284, in run_file
+    runpy.run_path(target, run_name="__main__")
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 321, in run_path
+    return _run_module_code(code, init_globals, run_name,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 135, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 124, in _run_code
+    exec(code, run_globals)
+  File "C:\__Python\_DiscordBot\main.py", line 283, in <module>
+    bot.run(token)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1395, in on_message
+    await self.process_commands(message)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1392, in process_commands
+    await self.invoke(ctx)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\__Python\_DiscordBot\main.py", line 224, in create_post
+    args = parser.parse_args(ctx.message.content.split()[2:])  # Change from [1:] to [2:]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\argparse.py", line 1869, in parse_args
+    args, argv = self.parse_known_args(args, namespace)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\argparse.py", line 1902, in parse_known_args
+    namespace, args = self._parse_known_args(args, namespace)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\argparse.py", line 2142, in _parse_known_args
+    self.error(_('the following arguments are required: %s') %
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\argparse.py", line 2630, in error
+    self.exit(2, _('%(prog)s: error: %(message)s\n') % args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\argparse.py", line 2617, in exit
+    _sys.exit(status)
+SystemExit: 2
+2023-11-20 00:52:32,586 - logging in using static token
+2023-11-20 00:52:33,628 - Shard ID None has connected to Gateway (Session ID: 727ff6ca9c83cdd5c522cbc058cf488d).
+2023-11-20 00:56:13,278 - Task exception was never retrieved
+future: <Task finished name='discord.py: on_message' coro=<Client._run_event() done, defined at c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\client.py:433> exception=SystemExit(2)>
+Traceback (most recent call last):
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 432, in main
+    log.reraise_exception(
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 430, in main
+    run()
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 284, in run_file
+    runpy.run_path(target, run_name="__main__")
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 321, in run_path
+    return _run_module_code(code, init_globals, run_name,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 135, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 124, in _run_code
+    exec(code, run_globals)
+  File "C:\__Python\_DiscordBot\main.py", line 290, in <module>
+    bot.run(token)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1395, in on_message
+    await self.process_commands(message)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1392, in process_commands
+    await self.invoke(ctx)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\__Python\_DiscordBot\main.py", line 228, in create_post
+    args = parser.parse_args(tokens[tokens.index('!post') + 1:])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\argparse.py", line 1872, in parse_args
+    self.error(msg % ' '.join(argv))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\argparse.py", line 2630, in error
+    self.exit(2, _('%(prog)s: error: %(message)s\n') % args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\argparse.py", line 2617, in exit
+    _sys.exit(status)
+SystemExit: 2
+2023-11-20 00:57:13,454 - logging in using static token
+2023-11-20 00:57:14,631 - Shard ID None has connected to Gateway (Session ID: 555b648698ebd78e7435c76fc3747f55).
+2023-11-20 00:57:31,426 - Task exception was never retrieved
+future: <Task finished name='discord.py: on_message' coro=<Client._run_event() done, defined at c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\client.py:433> exception=SystemExit(2)>
+Traceback (most recent call last):
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 432, in main
+    log.reraise_exception(
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 430, in main
+    run()
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 284, in run_file
+    runpy.run_path(target, run_name="__main__")
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 321, in run_path
+    return _run_module_code(code, init_globals, run_name,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 135, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 124, in _run_code
+    exec(code, run_globals)
+  File "C:\__Python\_DiscordBot\main.py", line 292, in <module>
+    bot.run(token)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1395, in on_message
+    await self.process_commands(message)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1392, in process_commands
+    await self.invoke(ctx)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\__Python\_DiscordBot\main.py", line 229, in create_post
+    args = parser.parse_args(args_str.split())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\argparse.py", line 1872, in parse_args
+    self.error(msg % ' '.join(argv))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\argparse.py", line 2630, in error
+    self.exit(2, _('%(prog)s: error: %(message)s\n') % args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\argparse.py", line 2617, in exit
+    _sys.exit(status)
+SystemExit: 2
+2023-11-20 00:59:08,752 - logging in using static token
+2023-11-20 00:59:09,748 - Shard ID None has connected to Gateway (Session ID: 8140a0413f8faff37e80f5eebbe845cf).
+2023-11-20 01:01:55,338 - Channel Name: \U0001f514-s01-attack-time - User: ririlegeek - Task: Rewrite message - User ID: 194579956376797184, Message ID: 1175947098223550585
+2023-11-20 01:03:40,731 - Channel Name: \U0001f92f-leader-chat - User: ririlegeek - Task: Anonymize - Trust me <@194579956376797184> ... \U0001f609 For you, I will anonimise ALL contents... \U0001f618
+2023-11-20 01:05:40,132 - logging in using static token
+2023-11-20 01:05:41,350 - Shard ID None has connected to Gateway (Session ID: b1cbaac231f4e352dae1ba06db42adf9).
+2023-11-20 01:06:50,201 - logging in using static token
+2023-11-20 01:06:51,270 - Shard ID None has connected to Gateway (Session ID: 9c6e4017725c10ff4ed37ddadd24a917).
+2023-11-20 01:07:40,931 - Channel Name: \u2328-bot-commands - User: ririlegeek - Task: Create post - 22:00:00 Heyyy!! I'm a text, yeaaaaaah! - 2023-11-20 00:00:00 (Timestamp: 1700438400)
+2023-11-20 01:10:31,626 - logging in using static token
+2023-11-20 01:10:32,797 - Shard ID None has connected to Gateway (Session ID: 9a53b4bb11153d12b56cff59d9114c68).
+2023-11-20 01:14:03,912 - Task exception was never retrieved
+future: <Task finished name='discord.py: on_message' coro=<Client._run_event() done, defined at c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\client.py:433> exception=SystemExit(2)>
+Traceback (most recent call last):
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 432, in main
+    log.reraise_exception(
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 430, in main
+    run()
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 284, in run_file
+    runpy.run_path(target, run_name="__main__")
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 321, in run_path
+    return _run_module_code(code, init_globals, run_name,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 135, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 124, in _run_code
+    exec(code, run_globals)
+  File "C:\__Python\_DiscordBot\main.py", line 288, in <module>
+    bot.run(token)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1395, in on_message
+    await self.process_commands(message)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1392, in process_commands
+    await self.invoke(ctx)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\__Python\_DiscordBot\main.py", line 229, in create_post
+    args = parser.parse_args(arguments.split())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\argparse.py", line 1872, in parse_args
+    self.error(msg % ' '.join(argv))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\argparse.py", line 2630, in error
+    self.exit(2, _('%(prog)s: error: %(message)s\n') % args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\argparse.py", line 2617, in exit
+    _sys.exit(status)
+SystemExit: 2
+2023-11-20 01:17:09,277 - logging in using static token
+2023-11-20 01:17:10,440 - Shard ID None has connected to Gateway (Session ID: 3cadd86fd699cf64ba61a13fbbce80a9).
+2023-11-20 01:18:08,955 - Task exception was never retrieved
+future: <Task finished name='discord.py: on_message' coro=<Client._run_event() done, defined at c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\client.py:433> exception=SystemExit(2)>
+Traceback (most recent call last):
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 432, in main
+    log.reraise_exception(
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 430, in main
+    run()
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 284, in run_file
+    runpy.run_path(target, run_name="__main__")
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 321, in run_path
+    return _run_module_code(code, init_globals, run_name,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 135, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 124, in _run_code
+    exec(code, run_globals)
+  File "C:\__Python\_DiscordBot\main.py", line 288, in <module>
+    bot.run(token)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1395, in on_message
+    await self.process_commands(message)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1392, in process_commands
+    await self.invoke(ctx)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\__Python\_DiscordBot\main.py", line 229, in create_post
+    args = parser.parse_args(arguments.split())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\argparse.py", line 1872, in parse_args
+    self.error(msg % ' '.join(argv))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\argparse.py", line 2630, in error
+    self.exit(2, _('%(prog)s: error: %(message)s\n') % args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\argparse.py", line 2617, in exit
+    _sys.exit(status)
+SystemExit: 2
+2023-11-20 01:18:38,943 - logging in using static token
+2023-11-20 01:18:39,903 - Shard ID None has connected to Gateway (Session ID: ddacc5341ff5b49135503cbbebc3c5b6).
+2023-11-20 01:19:25,101 - Task exception was never retrieved
+future: <Task finished name='discord.py: on_message' coro=<Client._run_event() done, defined at c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\client.py:433> exception=SystemExit(2)>
+Traceback (most recent call last):
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 432, in main
+    log.reraise_exception(
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 430, in main
+    run()
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 284, in run_file
+    runpy.run_path(target, run_name="__main__")
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 321, in run_path
+    return _run_module_code(code, init_globals, run_name,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 135, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "c:\Users\mongr\.vscode\extensions\ms-python.python-2023.21.13211009\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 124, in _run_code
+    exec(code, run_globals)
+  File "C:\__Python\_DiscordBot\main.py", line 292, in <module>
+    bot.run(token)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1395, in on_message
+    await self.process_commands(message)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1392, in process_commands
+    await self.invoke(ctx)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\__Python\_DiscordBot\main.py", line 229, in create_post
+    args = parser.parse_args(rest_of_command.split())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\argparse.py", line 1872, in parse_args
+    self.error(msg % ' '.join(argv))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\argparse.py", line 2630, in error
+    self.exit(2, _('%(prog)s: error: %(message)s\n') % args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\argparse.py", line 2617, in exit
+    _sys.exit(status)
+SystemExit: 2
+2023-11-20 22:49:24,837 - logging in using static token
+2023-11-20 22:49:26,067 - Shard ID None has connected to Gateway (Session ID: 04ff6be81d27a9f5c008e9431bfd64c2).
+2023-11-20 22:51:38,627 - logging in using static token
+2023-11-20 22:51:39,575 - Shard ID None has connected to Gateway (Session ID: 9949e7d4516d5796bc73491ccf35817e).
+2023-11-20 22:51:49,474 - Channel Name: \u2328-bot-commands - User: ririlegeek - Task: Anonymize - test
+2023-11-20 22:52:10,779 - Channel Name: \u2328-bot-commands - User: ririlegeek - Task: Rewrite message - User ID: 233559457739571200, Message ID: 1176278786417897503
+2023-11-20 22:52:23,755 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1175950127354085487 responded with 429. Retrying in 0.30 seconds.
+2023-11-20 22:52:24,448 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1175948501360836639 responded with 429. Retrying in 0.41 seconds.
+2023-11-20 22:52:25,271 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1175948500580716574 responded with 429. Retrying in 0.59 seconds.
+2023-11-20 22:52:26,337 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1175948440908341348 responded with 429. Retrying in 0.52 seconds.
+2023-11-20 22:52:27,254 - We are being rate limited. DELETE https://discord.com/api/v10/channels/1172349362425303110/messages/1175948439801053344 responded with 429. Retrying in 0.61 seconds.
+2023-11-20 22:52:28,130 - Channel Name: \u2328-bot-commands - User: ririlegeek - Task: Delete messages - 10
+2023-11-20 22:52:32,216 - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "debug" is not found
+2023-11-20 22:52:36,720 - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "delete" is not found
+2023-11-20 22:52:47,548 - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "debug" is not found
+2023-11-20 22:52:53,368 - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "delete" is not found
+2023-11-20 22:53:11,450 - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "delete" is not found
+2023-11-20 22:53:23,714 - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "delete" is not found
+2023-11-20 22:53:35,125 - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "delete" is not found
+2023-11-20 22:53:54,946 - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "delete" is not found
+2023-11-20 22:54:08,874 - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "delete" is not found
+2023-11-22 02:59:21,214 - logging in using static token
+2023-11-22 02:59:22,254 - Shard ID None has connected to Gateway (Session ID: 4db06ca450c59984eddeb117efaf0db9).
+2023-11-22 02:59:40,646 - Channel Name: \u2328-bot-commands - User: ririlegeek - Task: Anonymize - 
+2023-11-22 02:59:41,299 - Ignoring exception in command ano
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\__Python\_DiscordBot\main.py", line 128, in anonymize
+    await ctx.send(content_without_command)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\context.py", line 1024, in send
+    return await super().send(
+           ^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\abc.py", line 1561, in send
+    data = await state.http.send_message(channel.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\http.py", line 745, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50006): Cannot send an empty message
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: HTTPException: 400 Bad Request (error code: 50006): Cannot send an empty message
+2023-11-22 03:01:16,639 - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\__Python\_DiscordBot\main.py", line 293, in on_message
+    detected_language = detect(message.content)
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\langdetect\detector_factory.py", line 130, in detect
+    return detector.detect()
+           ^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\langdetect\detector.py", line 136, in detect
+    probabilities = self.get_probabilities()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\langdetect\detector.py", line 143, in get_probabilities
+    self._detect_block()
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\langdetect\detector.py", line 150, in _detect_block
+    raise LangDetectException(ErrorCode.CantDetectError, 'No features in text.')
+langdetect.lang_detect_exception.LangDetectException: No features in text.
+2023-11-22 03:07:37,825 - logging in using static token
+2023-11-22 03:07:39,427 - Shard ID None has connected to Gateway (Session ID: 291aa91d0e20a646df969013fb3cade4).
+2023-11-22 03:08:02,823 - Channel Name: \u2328-bot-commands - User: ririlegeek - Task: Anonymize - 
+2023-11-22 03:08:03,301 - Ignoring exception in command ano
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\__Python\_DiscordBot\main.py", line 128, in anonymize
+    await ctx.send(content_without_command)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\context.py", line 1024, in send
+    return await super().send(
+           ^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\abc.py", line 1561, in send
+    data = await state.http.send_message(channel.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\http.py", line 745, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50006): Cannot send an empty message
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\__Python\_DiscordBot\.venv\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: HTTPException: 400 Bad Request (error code: 50006): Cannot send an empty message
+2023-11-22 03:10:31,551 - logging in using static token
+2023-11-22 03:10:33,523 - Shard ID None has connected to Gateway (Session ID: 4a7514daad105b91b60dc1f1aba5305c).
+2023-11-22 03:12:55,478 - logging in using static token
+2023-11-22 03:12:56,556 - Shard ID None has connected to Gateway (Session ID: 8eb2ec167a2034ccac6cc7c3fa8e3d58).
+2023-11-22 03:14:36,219 - logging in using static token
+2023-11-22 03:14:37,455 - Shard ID None has connected to Gateway (Session ID: 788055785041a58752abd19d24312bb0).
+2023-11-22 03:17:46,900 - logging in using static token
+2023-11-22 03:17:47,895 - Shard ID None has connected to Gateway (Session ID: 0aec058539ec56db296c456fe510d3e2).
+2023-11-22 03:28:51,723 - logging in using static token
+2023-11-22 03:28:52,692 - Shard ID None has connected to Gateway (Session ID: a5617d7bb62e0d55a176b50caeafc883).
+2023-11-22 03:30:38,347 - logging in using static token
+2023-11-22 03:30:39,550 - Shard ID None has connected to Gateway (Session ID: 67a91b039f7421f1027af79ec86689a8).
+2023-11-22 03:31:29,040 - Channel Name: \u2328-bot-commands - User: ririlegeek - Task: Anonymize - test test
+2023-11-22 03:31:37,202 - Channel Name: \u2328-bot-commands - User: ririlegeek - Task: Anonymize - !
+2023-11-22 03:32:18,516 - logging in using static token
+2023-11-22 03:32:19,437 - Shard ID None has connected to Gateway (Session ID: fde381d5444de7e0e76287666999192f).
+2023-11-22 03:32:42,236 - Channel Name: \u2328-bot-commands - User: ririlegeek - Task: Anonymize - test
+2023-11-22 03:32:53,244 - Channel Name: \u2328-bot-commands - User: ririlegeek - Task: Delete messages - 3
+2023-11-22 03:33:07,710 - Channel Name: \u2328-bot-commands - User: ririlegeek - Task: Rewrite message - User ID: 233559457739571200, Message ID: 1176711883902963793
+2023-11-22 03:34:48,788 - logging in using static token
+2023-11-22 03:34:49,700 - Shard ID None has connected to Gateway (Session ID: 77d3d2c92870b36d4dcd04d1f30959c0).
+2023-11-22 03:34:55,678 - Channel Name: \u2328-bot-commands - User: ririlegeek - Task: Anonymize - test
+2023-11-22 03:35:00,967 - Channel Name: \u2328-bot-commands - User: ririlegeek - Task: Anonymize - allo allo
+2023-11-22 03:36:42,937 - logging in using static token
+2023-11-22 03:36:43,908 - Shard ID None has connected to Gateway (Session ID: 455f100dcc68904760fd411a46630854).
+2023-11-22 03:37:11,103 - logging in using static token
+2023-11-22 03:37:12,265 - Shard ID None has connected to Gateway (Session ID: aa4ef767e351b20a5c840ecd3e4eae4e).
+2023-11-22 03:38:55,135 - logging in using static token
+2023-11-22 03:38:56,139 - Shard ID None has connected to Gateway (Session ID: cbe4c0ee6e8f8f3c68327b642d51fdad).
+2023-11-22 03:40:41,665 - logging in using static token
+2023-11-22 03:40:42,677 - Shard ID None has connected to Gateway (Session ID: ddb170e6db4a5f8a28ce5cacb3faa243).
+2023-11-22 03:41:30,694 - logging in using static token
+2023-11-22 03:41:31,694 - Shard ID None has connected to Gateway (Session ID: 77f984ddd35761e4eff0d263155e697f).
+2023-11-22 03:54:12,672 - logging in using static token
+2023-11-22 03:54:13,632 - Shard ID None has connected to Gateway (Session ID: 053269d05e208b995574c0c69ca8c6f0).
+2023-11-22 04:04:38,012 - logging in using static token
+2023-11-22 04:04:39,147 - Shard ID None has connected to Gateway (Session ID: 85482b0ecef0e50416db17a7b4be2f03).
+2023-11-22 04:05:57,878 - Channel Name: \U0001f514-s01-attack-time - User: ririlegeek - Task: Anonymize - test
+2023-11-22 04:07:09,254 - Channel Name: \U0001f514-s01-attack-time - User: ririlegeek - Task: Anonymize - # Lv 5 Fort Clawbrook - 4:00 pm UTC (16:00)
+
+# Lv 5 Fort Tenacity - 6:00 pm UTC (18:00)
+
+Lv 3 Dovetail Hold - 8:00 pm UTC (20:00)
+2023-11-22 04:07:27,138 - Channel Name: \U0001f514-s01-attack-time - User: ririlegeek - Task: Anonymize - # Lv 5 Fort Clawbrook - 4:00 pm UTC (16:00)
+# Lv 5 Fort Tenacity - 6:00 pm UTC (18:00)
+# Lv 3 Dovetail Hold - 8:00 pm UTC (20:00)
+2023-11-23 05:06:56,789 - logging in using static token
+2023-11-23 05:06:58,036 - Shard ID None has connected to Gateway (Session ID: a78562e21e02888e3d4122295734a423).
+2023-11-23 05:10:48,512 - logging in using static token
+2023-11-23 05:10:49,982 - Shard ID None has connected to Gateway (Session ID: 6e6ce04158672b53618485b73ff67117).
